@@ -1,0 +1,54 @@
+background-color: black;
+           background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShmY9E0C1bPM-sZhOluzbcJHNsZVs5uiax7MBr2KTe_w&usqp=CAU&ec=48665701);
+           background-size: cover;
+           min-height: 100vh;
+           background-attachment: fixed;
+
+
+
+
+selector{
+	properties;
+	properties;
+}
+
+
+selector
+	>>simple-
+		element, id, class
+	>>combinator-
+		descandant(), general(~),  
+		
+
+
+	>>color-
+		color name, color rgb(255,0,0), range will be 0 to 255
+					rgba(), a is opacity, range will be 0 to 1
+					hexa code 0 to 15
+						0 1 2 3 4 5 6 7 8 9 a b c d e f
+					format:- #rrggbb
+
+
+	>>background
+		background-color  (all color properties)
+		background-image	(url "source")
+		background-attachment	(fixed scroll)
+		background-repeat 	(repeat,no-repeat,repeat-x,repeat-y)
+		background-position	(top right,top left,top up,top down)
+
+
+	>>text properties
+		text-align		(center left, right justify)
+		text-decoration	(underline, overline, line-through)
+		word-spacing
+		letter-spacing
+		line-height
+
+
+	>>border-
+		width, style, color
+		margin-left, margin-right, margin-bottom, margin-top
+		margin 1 value = all sides
+		margin 2 values = 5% 10%; top, bottom(5) and right, left(10)
+		margin 4 values = 5%     3%        8%          26%
+					top	right    bottom	     left
